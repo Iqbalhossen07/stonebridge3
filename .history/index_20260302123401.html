@@ -516,57 +516,67 @@
 </section>
 
 
-<section id="why-choose-us" class="py-16 lg:py-20 bg-white overflow-hidden">
-    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+<section id="why-choose-us" class="relative py-24 lg:py-32 bg-white overflow-hidden">
+    
+    <div class="absolute inset-0 z-0 opacity-[0.4]" style="background-image: radial-gradient(#e5e7eb 1px, transparent 1px); background-size: 20px 20px;"></div>
+
+    <div class="relative z-10 max-w-[1400px] mx-auto px-6 md:px-10">
         <div class="flex flex-col lg:flex-row gap-16 items-center">
             
-            <div class="w-full lg:w-[40%]">
-                <div class="flex items-center gap-3 mb-6">
-                    <span class="w-10 h-[2px] bg-primary"></span>
-                    <span class="text-primary font-bold text-xs uppercase tracking-widest">Why Choose Us</span>
+            <div class="w-full lg:w-5/12">
+                <div class="inline-block px-4 py-1 rounded-full bg-primary/5 border border-primary/20 mb-6">
+                    <span class="text-primary font-bold text-xs uppercase tracking-widest italic">Premier Selection</span>
                 </div>
-                <h2 class="text-2xl md:text-4xl font-black text-black leading-tight mb-8">
-                    Your Trusted Partner for 
-                    <span class="text-primary">UK Immigration</span> Success
+                <h2 class="text-4xl md:text-6xl font-black text-black leading-tight mb-8">
+                    Why we are the <br>
+                    <span class="relative">
+                        <span class="relative z-10">First Choice</span>
+                        <span class="absolute bottom-2 left-0 w-full h-4 bg-primary/10 -z-10"></span>
+                    </span>
+                    for UK Law
                 </h2>
-                <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    At Stonebridge Legal Solutions, we combine high-level regulation with a client-first approach to ensure your journey is smooth and successful.
+                <p class="text-gray-500 text-lg leading-relaxed mb-10">
+                    Stonebridge represents a legacy of legal excellence. We don't just provide services; we build shields around your interests and bridges to your goals.
                 </p>
-                <a href="#" class="inline-block bg-black text-white font-bold px-8 py-3.5 rounded-md hover:bg-primary transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                    Start Your Consultation
+                
+                <a href="#" class="group inline-flex items-center gap-4 bg-black text-white px-8 py-4 rounded-xl hover:bg-primary transition-all duration-300 shadow-xl shadow-black/10">
+                    <span class="font-bold">Discover More</span>
+                    <span class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:rotate-45 transition-transform italic">→</span>
                 </a>
             </div>
 
-            <div class="w-full lg:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="w-full lg:w-7/12 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">Expert Regulated Advice</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">Regulated at the highest level (IAA Level 3) to handle complex cases and appeals.</p>
+                <div class="bg-white p-8 rounded-[40px] rounded-tr-none border border-gray-100 shadow-[0_20px_40px_rgba(0,0,0,0.03)] hover:shadow-[0_30px_60px_rgba(0,0,0,0.08)] transition-all duration-500 group">
+                    <div class="w-16 h-16 bg-gray-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 transition-colors">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a2 2 0 00-1.96 1.414l-.711 2.489a2 2 0 002.485 2.485l2.489-.711a2 2 0 001.414-1.96l-.477-2.387a2 2 0 00-.547-1.022z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-black mb-4">Strategic Mastery</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">We engineer legal solutions that are two steps ahead of any challenge, ensuring absolute security for you.</p>
                 </div>
 
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">High Success Rate</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">Built on results. Strong track record of securing visas and winning appeals.</p>
+                <div class="bg-primary p-8 rounded-[40px] rounded-bl-none shadow-[0_20px_40px_rgba(180,138,62,0.2)] hover:-translate-y-2 transition-all duration-500">
+                    <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">No Surprise Billing</h4>
+                    <p class="text-white/80 text-sm leading-relaxed">Our fixed-fee model means you never have to worry about hourly rates. Clear, upfront, and honest pricing.</p>
                 </div>
 
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">Client-Centric Service</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">Clear, honest, and supportive guidance with direct access to your advisor.</p>
+                <div class="bg-gray-900 p-8 rounded-[40px] rounded-tr-none shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Barrister Grade</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">Access to top-tier UK Barristers and Solicitors who bring courtroom-level intensity to every case.</p>
                 </div>
 
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">Transparent Pricing</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">Straightforward pricing with no hidden fees, so you know exactly what to expect.</p>
-                </div>
-
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">Full-Service Firm</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">From initial application to business compliance, we cover every aspect of UK law.</p>
-                </div>
-
-                <div class="h-[100px] border-2 border-dotted border-gray-200 p-4 rounded-xl flex flex-col justify-center hover:border-primary hover:bg-gray-50 transition-all duration-300 group">
-                    <h4 class="text-sm font-bold text-black mb-1 group-hover:text-primary transition-colors">Business & HR Support</h4>
-                    <p class="text-sm text-gray-500 leading-tight line-clamp-2">Dedicated services for businesses, including sponsor licence and HRMS portals.</p>
+                <div class="bg-white p-8 rounded-[40px] rounded-bl-none border border-gray-100 shadow-[0_20px_40px_rgba(0,0,0,0.03)] hover:shadow-[0_30px_60px_rgba(0,0,0,0.08)] transition-all duration-500 group">
+                    <div class="w-16 h-16 bg-gray-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 transition-colors">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-4.44-2.03c.595-.707.953-1.614.953-2.603 0-2.209-1.791-4-4-4m12 4c0 1.574-.404 3.056-1.11 4.333L12 21m0-10c0-2.209 1.791-4 4-4s4 1.791 4 4m-4-7c0-1.105.895-2 2-2s2 .895 2 2"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-black mb-4">Personalized Shield</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">We don't do mass-market law. We provide bespoke protection tailored to your legacy and lifestyle.</p>
                 </div>
 
             </div>
