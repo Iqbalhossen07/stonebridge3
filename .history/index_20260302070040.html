@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Law - UK Legal Firm</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#b48a3e', 
+                        darkbg: '#0a0d13', 
+                    },
+                    fontFamily: {
+                        base: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* ডেস্কটপ গ্রাডিয়েন্ট */
+        @media (min-width: 1024px) {
+            .hero-gradient {
+                background: linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);
+            }
+        }
+        
+        /* মোবাইল ভিউ স্পেশাল কাস্টমাইজেশন */
+        @media (max-width: 1023px) {
+            .hero-image-mobile {
+                height: 65vh; /* ইমেজের হাইট বাড়ানো হয়েছে যাতে টেক্সট ওভারল্যাপ করে */
+                background-position: center right -4rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+            }
+            .mobile-overlay {
+                background: linear-gradient(to bottom, 
+                    rgba(10,13,19,0) 0%, 
+                    rgba(10,13,19,0.2) 30%, 
+                    rgba(10,13,19,0.8) 50%, 
+                    rgba(10,13,19,1) 70%); /* লাল দাগের এলাকা থেকে ডার্কনেস শুরু */
+            }
+            .content-wrapper-mobile {
+                margin-top: 32vh; /* আপনার লাল দাগের পজিশন অনুযায়ী টেক্সটকে ইমেজের মাঝে তোলা হয়েছে */
+                position: relative;
+                z-index: 10;
+            }
+        }
+    </style>
+</head>
+<body class="bg-darkbg text-white font-base" x-data="{ mobileMenu: false }">
+
+    <section id="hero" class="relative min-h-screen flex flex-col lg:block overflow-hidden">
+        
+        <header class="absolute top-0 left-0 right-0 z-50 max-w-[1400px] mx-auto px-6 md:px-10 py-6 md:py-8 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4Z" fill="white"/>
+                    <path d="M12 8C10.9 8 10 8.9 10 10V14C10 15.1 10.9 16 12 16C13.1 16 14 15.1 14 14V10C14 8.9 13.1 8 12 8Z" fill="white"/>
+                    <path d="M7 11V13H17V11H7Z" fill="white"/>
+                </svg>
+                <span class="font-bold text-xl md:text-2xl tracking-tight">Apex Law</span>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <a href="#" class="hidden lg:inline-block bg-white text-black font-bold px-7 py-2.5 rounded-full hover:bg-primary transition duration-300">
+                    Start Your Case
+                </a>
+                <button @click="mobileMenu = true" class="lg:hidden text-white">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="hero-image-mobile lg:absolute lg:inset-0 bg-cover bg-no-repeat lg:bg-center" style="background-image: url('img/hero.png');">
+            <div class="absolute inset-0 hero-gradient"></div>
+            <div class="absolute inset-0 mobile-overlay lg:hidden"></div>
+        </div>
+
+        <div class="content-wrapper-mobile relative z-10 max-w-[1400px] mx-auto px-6 md:px-10 flex-1 flex flex-col justify-center pb-12 lg:pt-32 lg:pb-40">
+            <div class="max-w-3xl">
+                <p class="text-white font-medium flex items-center gap-3 mb-4 lg:mb-6 tracking-wide text-xs md:text-base">
+                    <span>→</span>
+                    Your reliable legal ally for progress
+                </p>
+                
+                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold leading-[1.2] md:leading-[1.1] mb-6 md:mb-10 text-white">
+                    Strong legal support guiding your journey with clarity
+                </h1>
+                
+                <ul class="space-y-3 md:space-y-4 mb-8 md:mb-12 text-gray-300 text-sm md:text-lg">
+                    <li class="flex items-center gap-3 md:gap-4"><span class="w-1.5 h-1.5 bg-white rounded-full"></span> Expert Legal Guidance</li>
+                    <li class="flex items-center gap-3 md:gap-4"><span class="w-1.5 h-1.5 bg-white rounded-full"></span> Proven Success Record</li>
+                    <li class="flex items-center gap-3 md:gap-4"><span class="w-1.5 h-1.5 bg-white rounded-full"></span> Transparent & Reliable Service</li>
+                </ul>
+
+                <div class="flex flex-row items-center gap-3">
+                    <a href="#" class="flex-1 sm:flex-none bg-white text-black text-center font-bold px-4 py-3.5 md:py-4 rounded-full text-[13px] sm:text-base whitespace-nowrap">
+                        Speak to a Lawyer
+                    </a>
+                    <a href="#" class="flex-1 sm:flex-none bg-black/40 backdrop-blur-md text-white text-center font-bold px-4 py-3.5 md:py-4 rounded-full border border-white/20 text-[13px] sm:text-base whitespace-nowrap">
+                        Explore Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="bg-darkbg border-t border-white/5 py-12 lg:py-20">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10">
+                <div class="col-span-2 lg:col-span-1 lg:pr-10">
+                    <h3 class="font-semibold text-base mb-4">Trusted By our customer</h3>
+                    <div class="flex items-center gap-3">
+                        <div class="flex -space-x-3">
+                            <img class="w-10 h-10 rounded-full border-2 border-darkbg" src="https://i.pravatar.cc/100?u=1">
+                            <img class="w-10 h-10 rounded-full border-2 border-darkbg" src="https://i.pravatar.cc/100?u=2">
+                            <img class="w-10 h-10 rounded-full border-2 border-darkbg" src="https://i.pravatar.cc/100?u=3">
+                        </div>
+                        <div>
+                            <span class="text-white text-xl font-bold block leading-none">1000+</span>
+                            <p class="text-gray-500 text-[10px] uppercase">client satisfied</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:px-10 text-left border-l border-white/10 pl-4">
+                    <h2 class="font-black text-3xl md:text-6xl text-white">15K+</h2>
+                    <p class="text-gray-500 uppercase text-[9px] mt-1">Legal Resolved</p>
+                </div>
+                <div class="lg:px-10 text-left border-l border-white/10 pl-4">
+                    <h2 class="font-black text-3xl md:text-6xl text-white">15+</h2>
+                    <p class="text-gray-500 uppercase text-[9px] mt-1">Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
