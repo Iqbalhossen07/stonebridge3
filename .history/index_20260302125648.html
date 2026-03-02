@@ -97,17 +97,6 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
-
-         @keyframes spin {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    .line-clamp-1 {
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
     </style>
 </head>
 <body class="bg-darkbg text-white font-base">
@@ -598,17 +587,16 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             
-            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full cursor-pointer" 
-                 onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
-                <div class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] group-hover:animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
+            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full">
+                <div class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
                 
-                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
+                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10">
                     <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
-                            <div class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <button class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center hover:scale-110 transition shadow-lg">
                                 <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="px-4 pb-6">
@@ -618,16 +606,15 @@
                 </div>
             </div>
 
-            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full cursor-pointer"
-                 onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
-                <div class="absolute inset-[-1000%] animate-[spin_5s_linear_infinite] group-hover:animate-[spin_2.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
-                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
+            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full">
+                <div class="absolute inset-[-1000%] animate-[spin_5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
+                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10">
                     <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1521791136364-728a168b3be5?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
-                            <div class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                        <img src="https://images.unsplash.com/photo-1521791136364-728a168b3be5?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <button class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center hover:scale-110 transition shadow-lg">
                                 <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="px-4 pb-6">
@@ -637,16 +624,15 @@
                 </div>
             </div>
 
-            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full cursor-pointer"
-                 onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
-                <div class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] group-hover:animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
-                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
+            <div class="relative group p-[2px] rounded-[32px] overflow-hidden bg-gray-100 h-full">
+                <div class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]"></div>
+                <div class="relative bg-white rounded-[30px] p-2 h-full flex flex-col z-10">
                     <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
-                            <div class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                        <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&q=80" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                            <button class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center hover:scale-110 transition shadow-lg">
                                 <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="px-4 pb-6">
@@ -660,16 +646,21 @@
     </div>
 </section>
 
-<div id="video-modal" class="fixed inset-0 z-[1000] hidden items-center justify-center bg-black/90 backdrop-blur-sm p-4">
-    <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
-        <button onclick="closeVideo()" class="absolute top-4 right-4 z-50 text-white/70 hover:text-white text-4xl">&times;</button>
-        <iframe id="video-iframe" class="w-full h-full" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-</div>
-
-
-
-
+<style>
+    /* ডেসক্রিপশন ১ লাইনে রাখার জন্য */
+    .line-clamp-1 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    /* অ্যানিমেশন স্পিন */
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+</style>
 
 <section class="relative py-12 lg:py-20 bg-cover bg-center bg-no-repeat " style="background-image: url('img/process.png');">
     
@@ -825,23 +816,7 @@
     window.addEventListener('resize', checkTextClamping);
 
 
-     function openVideo(url) {
-        const modal = document.getElementById('video-modal');
-        const iframe = document.getElementById('video-iframe');
-        iframe.src = url + "?autoplay=1";
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeVideo() {
-        const modal = document.getElementById('video-modal');
-        const iframe = document.getElementById('video-iframe');
-        iframe.src = "";
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-        document.body.style.overflow = 'auto';
-    }
+    
 </script>
 
 </body>

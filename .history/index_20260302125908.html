@@ -97,17 +97,6 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
-
-         @keyframes spin {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    .line-clamp-1 {
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
     </style>
 </head>
 <body class="bg-darkbg text-white font-base">
@@ -667,9 +656,38 @@
     </div>
 </div>
 
+<style>
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .line-clamp-1 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>
 
+<script>
+    function openVideo(url) {
+        const modal = document.getElementById('video-modal');
+        const iframe = document.getElementById('video-iframe');
+        iframe.src = url + "?autoplay=1";
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+    }
 
-
+    function closeVideo() {
+        const modal = document.getElementById('video-modal');
+        const iframe = document.getElementById('video-iframe');
+        iframe.src = "";
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = 'auto';
+    }
+</script>
 
 <section class="relative py-12 lg:py-20 bg-cover bg-center bg-no-repeat " style="background-image: url('img/process.png');">
     
@@ -825,23 +843,7 @@
     window.addEventListener('resize', checkTextClamping);
 
 
-     function openVideo(url) {
-        const modal = document.getElementById('video-modal');
-        const iframe = document.getElementById('video-iframe');
-        iframe.src = url + "?autoplay=1";
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeVideo() {
-        const modal = document.getElementById('video-modal');
-        const iframe = document.getElementById('video-iframe');
-        iframe.src = "";
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-        document.body.style.overflow = 'auto';
-    }
+    
 </script>
 
 </body>

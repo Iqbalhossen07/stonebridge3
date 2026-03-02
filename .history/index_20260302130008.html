@@ -97,17 +97,6 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
-
-         @keyframes spin {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    .line-clamp-1 {
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
     </style>
 </head>
 <body class="bg-darkbg text-white font-base">
@@ -667,7 +656,18 @@
     </div>
 </div>
 
-
+<style>
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .line-clamp-1 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>
 
 
 
