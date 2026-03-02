@@ -923,8 +923,8 @@
                     <span class="w-10 h-[2px] bg-primary"></span>
                     <span class="text-primary font-bold text-xs uppercase tracking-widest">General Inquiries</span>
                 </div>
-                <h2 class="text-2xl md:text-4xl font-black text-black leading-tight mb-8">
-                    Common Questions  <span class="text-primary italic">Answered.</span>
+                <h2 class="text-4xl md:text-5xl font-black text-black leading-tight mb-8">
+                    Common <br> Questions <br> <span class="text-primary italic">Answered.</span>
                 </h2>
                 <p class="text-gray-500 text-lg leading-relaxed mb-10">
                     Can't find the answer you're looking for? Reach out to our dedicated legal team for personalized assistance.
@@ -1089,36 +1089,9 @@
         </div>
     </div>
 </footer>
-<script>
-    function toggleFAQ(button) {
-        const item = button.parentElement;
-        const answer = button.nextElementSibling;
-        const iconVertical = button.querySelector('.faq-icon span:last-child');
-        
-        // সব আইটেম থেকে একটিভ ক্লাস সরানো (ঐচ্ছিক - যদি একবারে একটা খোলা রাখতে চান)
-        // document.querySelectorAll('.faq-answer').forEach(el => {
-        //     if(el !== answer) {
-        //         el.classList.add('hidden');
-        //         el.parentElement.querySelector('.faq-icon span:last-child').classList.remove('rotate-90', 'opacity-0');
-        //     }
-        // });
 
-        // টগল লজিক
-        if (answer.classList.contains('hidden')) {
-            answer.classList.remove('hidden');
-            iconVertical.style.transform = 'rotate(90deg)';
-            iconVertical.style.opacity = '0';
-            item.classList.add('border-primary');
-            item.style.backgroundColor = '#fcfaf6'; // হালকা গোল্ডেন টিন্ট
-        } else {
-            answer.classList.add('hidden');
-            iconVertical.style.transform = 'rotate(0deg)';
-            iconVertical.style.opacity = '1';
-            item.classList.remove('border-primary');
-            item.style.backgroundColor = 'transparent';
-        }
-    }
 
+    <script>
         const openBtn = document.getElementById('openMenu');
         const closeBtn = document.getElementById('closeMenu');
         const menuOverlay = document.getElementById('mobileMenuOverlay');
