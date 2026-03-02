@@ -85,35 +85,3 @@
         </div>
     </div>
 </section>
-
-<script>
-   function toggleFAQ(button) {
-        const item = button.parentElement;
-        const answer = button.nextElementSibling;
-        const iconVertical = button.querySelector('.faq-icon span:last-child');
-        
-        // সব আইটেম থেকে একটিভ ক্লাস সরানো (ঐচ্ছিক - যদি একবারে একটা খোলা রাখতে চান)
-        // document.querySelectorAll('.faq-answer').forEach(el => {
-        //     if(el !== answer) {
-        //         el.classList.add('hidden');
-        //         el.parentElement.querySelector('.faq-icon span:last-child').classList.remove('rotate-90', 'opacity-0');
-        //     }
-        // });
-
-        // টগল লজিক
-        if (answer.classList.contains('hidden')) {
-            answer.classList.remove('hidden');
-            iconVertical.style.transform = 'rotate(90deg)';
-            iconVertical.style.opacity = '0';
-            item.classList.add('border-primary');
-            item.style.backgroundColor = '#fcfaf6'; // হালকা গোল্ডেন টিন্ট
-        } else {
-            answer.classList.add('hidden');
-            iconVertical.style.transform = 'rotate(0deg)';
-            iconVertical.style.opacity = '1';
-            item.classList.remove('border-primary');
-            item.style.backgroundColor = 'transparent';
-        }
-    }
-
-    </script>

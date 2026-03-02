@@ -115,57 +115,51 @@
 
     <section id="hero" class="relative min-h-screen mobile-hero-section flex flex-col lg:block overflow-hidden">
         
-    <header id="mainHeader" class="fixed top-0 left-0 right-0 z-[60] transition-all duration-500">
-    <div class="max-w-[1600px] mx-auto px-6 md:px-10 py-5 md:py-6 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-            <a href="/">
-                <img src="img/logo_white.png" alt="Apex Law Logo" class="h-10 md:h-12 w-auto object-contain">
-            </a>
-        </div>
-        
-        <nav class="hidden lg:flex items-center gap-10 text-gray-300 font-medium text-sm uppercase tracking-widest">
-            <a href="#" class="hover:text-primary transition-colors duration-300">Home</a>
-            <a href="#" class="hover:text-primary transition-colors duration-300">About Us</a>
-            <a href="#" class="hover:text-primary transition-colors duration-300">Services</a>
-            <a href="#" class="hover:text-primary transition-colors duration-300">Blogs</a>
-            <a href="#" class="hover:text-primary transition-colors duration-300">Contact</a>
-        </nav>
+        <header class="absolute top-0 left-0 right-0 z-[60] max-w-[1600px] mx-auto px-6 md:px-10 py-6 md:py-8 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <a href="/">
+                    <img src="img/logo_white.png" alt="Apex Law Logo" class="h-10 md:h-14 w-auto object-contain">
+                </a>
+            </div>
+            
+            <nav class="hidden lg:flex items-center gap-10 text-gray-300 font-medium">
+                <a href="#" class="hover:text-white transition">Home</a>
+                <a href="#" class="hover:text-white transition">About Us</a>
+                <a href="#" class="hover:text-white transition">Services</a>
+                <a href="#" class="hover:text-white transition">Blogs</a>
+                <a href="#" class="hover:text-white transition">Contact</a>
+            </nav>
 
-        <div class="flex items-center gap-4">
-            <a href="#" class="hidden lg:inline-block bg-primary text-white font-bold px-7 py-2.5 rounded-md shadow-lg shadow-primary/20 hover:bg-white hover:text-black transition-all duration-300 text-sm">
-               Book Appointment
-            </a>
-            <button id="openMenu" class="lg:hidden text-white focus:outline-none p-2 hover:text-primary transition-colors">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                </svg>
-            </button>
-        </div>
-    </div>
-</header>
+            <div class="flex items-center gap-4">
+                <a href="#" class="hidden lg:inline-block bg-white text-black font-bold px-7 py-2.5 rounded-md shadow-lg shadow-white/10 hover:bg-gray-200 transition duration-300">
+                   Book Appointment
+                </a>
+                <button id="openMenu" class="lg:hidden text-white focus:outline-none p-2">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
 
-<div id="mobileMenuOverlay" class="fixed inset-0 z-[100] bg-darkbg p-8 flex flex-col lg:hidden translate-x-full transition-transform duration-500 ease-in-out">
-    <div class="flex justify-between items-center mb-16">
-        <div class="flex items-center">
-            <img src="img/logo_white.png" alt="Apex Law Logo" class="h-10 w-auto object-contain">
+        <div id="mobileMenuOverlay" class="fixed inset-0 z-[100] bg-darkbg p-6 flex flex-col lg:hidden">
+            <div class="flex justify-between items-center mb-12">
+                <div class="flex items-center">
+                    <img src="img/logo_white.png" alt="Apex Law Logo" class="h-12 w-auto object-contain">
+                </div>
+                <button id="closeMenu" class="text-white text-4xl leading-none focus:outline-none">&times;</button>
+            </div>
+            <nav class="flex flex-col gap-8 text-2xl font-semibold text-center mt-10">
+                <a href="#" class="hover:text-primary transition">Home</a>
+                <a href="#" class="hover:text-primary transition">About Us</a>
+                <a href="#" class="hover:text-primary transition">Services</a>
+                <a href="#" class="hover:text-primary transition">Blogs</a>
+                <a href="#" class="hover:text-primary transition">Contact</a>
+            </nav>
+            <div class="mt-auto pb-10">
+                <a href="#" class="block w-full bg-white text-black text-center py-4 rounded-full font-bold text-lg">Start Your Case</a>
+            </div>
         </div>
-        <button id="closeMenu" class="w-12 h-12 flex items-center justify-center rounded-full border border-white/10 text-white text-3xl focus:outline-none hover:bg-white/10 transition">&times;</button>
-    </div>
-    
-    <nav class="flex flex-col gap-6 text-left">
-        <a href="#" class="text-lg font-bold text-white hover:text-primary transition-colors py-2 border-b border-white/5">Home</a>
-        <a href="#" class="text-lg font-bold text-white hover:text-primary transition-colors py-2 border-b border-white/5">About Us</a>
-        <a href="#" class="text-lg font-bold text-white hover:text-primary transition-colors py-2 border-b border-white/5">Services</a>
-        <a href="#" class="text-lg font-bold text-white hover:text-primary transition-colors py-2 border-b border-white/5">Blogs</a>
-        <a href="#" class="text-lg font-bold text-white hover:text-primary transition-colors py-2 border-b border-white/5">Contact</a>
-    </nav>
-    
-    <div class="mt-auto">
-         <a href="#" class="block lg:inline-block text-center bg-primary text-white font-bold px-7 py-2.5 rounded-md shadow-lg shadow-primary/20 hover:bg-white hover:text-black transition-all duration-300 text-sm">
-               Book Appointment
-            </a>
-    </div>
-</div>
 
         <div class="mobile-hero-bg lg:absolute lg:inset-0 bg-cover bg-no-repeat lg:bg-center z-1" style="background-image: url('img/hero.png');">
             <div class="hidden lg:block absolute inset-0 hero-gradient"></div>
@@ -193,10 +187,10 @@
                 </ul>
 
                 <div class="flex flex-row items-center gap-3 sm:gap-4">
-                    <a href="#" class="flex-1 sm:flex-none bg-white text-black text-center font-bold px-6 py-2.5 md:py-3 rounded-md shadow-lg shadow-white/10 hover:bg-gray-100 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
+                    <a href="#" class="flex-1 sm:flex-none bg-white text-black text-center font-bold px-6 py-3.5 md:py-4 rounded-md shadow-lg shadow-white/10 hover:bg-gray-100 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
                         Our Services
                     </a>
-                    <a href="#" class="flex-1 sm:flex-none bg-white/10 backdrop-blur-md text-white text-center font-bold px-6 py-2.5 md:py-3 rounded-md border border-white/20 shadow-lg shadow-black/40 hover:bg-black/40 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
+                    <a href="#" class="flex-1 sm:flex-none bg-white/10 backdrop-blur-md text-white text-center font-bold px-6 py-3.5 md:py-4 rounded-md border border-white/20 shadow-lg shadow-black/40 hover:bg-black/40 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
                        Happy Clients
                     </a>
                 </div>
@@ -250,68 +244,6 @@
         </div>
     </section>
 
-    <section class="bg-primary overflow-hidden border-y border-white/10 flex items-center h-12">
-    
-    <div class="relative z-20 bg-primary px-3 h-full flex items-center shadow-[10px_0_20px_rgba(0,0,0,0.1)]">
-        <span class="text-white font-black text-base md:text-sm uppercase tracking-tighter whitespace-nowrap">
-            Latest News:
-        </span>
-    </div>
-
-    <div class="relative flex overflow-x-hidden group">
-        <div class="flex animate-marquee gap-8 items-center group-hover:[animation-play-state:paused]">
-            <div class="flex items-center gap-8">
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    New UK Skilled Worker Visa Changes 2026: Important Update
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    Sponsor Licence Compliance: Essential Guide for Businesses
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    How to Win Spouse Visa Appeals in the UK Court
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    The Impact of IAA Level 3 Regulation on Your Legal Case
-                </a>
-                <span class="text-white/30">•</span>
-            </div>
-        </div>
-
-        <div class="flex animate-marquee gap-8 items-center group-hover:[animation-play-state:paused]" aria-hidden="true">
-            <div class="flex items-center gap-8">
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    New UK Skilled Worker Visa Changes 2026: Important Update
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    Sponsor Licence Compliance: Essential Guide for Businesses
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    How to Win Spouse Visa Appeals in the UK Court
-                </a>
-                <span class="text-white/30">•</span>
-                <a href="#" class="text-white/90 font-medium text-xs md:text-sm hover:text-white transition-colors whitespace-nowrap">
-                    The Impact of IAA Level 3 Regulation on Your Legal Case
-                </a>
-                <span class="text-white/30">•</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-    @keyframes marquee {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-100%); }
-    }
-    .animate-marquee {
-        animation: marquee 35s linear infinite;
-    }
-</style>
 
     <section id="testimonials" class="relative py-16 lg:py-20 bg-white overflow-hidden border-t border-gray-100">
     <div class="relative z-10 max-w-[1600px] mx-auto px-6 md:px-10">
@@ -323,7 +255,7 @@
                 </div>
                 <h2 class="text-2xl md:text-4xl font-black text-black leading-tight mb-8">
                    Real
-                    <span class="text-primary italic">Clients. </span> Real Success
+                    <span class="text-primary it">Clients. </span> Real Success
                 </h2>
 
         </div>
@@ -411,11 +343,10 @@
         </div>
 
       <div class="mt-16 text-center">
-  
-
-    <a href="#" class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                      View All Testimonials
-                </a>
+    <a href="#" 
+       class="inline-block bg-primary text-white font-bold px-8 py-3 rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.3)] hover:bg-black hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-all duration-300 text-sm md:text-base">
+        View All Testimonials
+    </a>
 </div>
     </div>
 
@@ -622,7 +553,7 @@
                 <p class="text-gray-600 text-lg leading-relaxed mb-10">
                     At Stonebridge Legal Solutions, we combine high-level regulation with a client-first approach to ensure your journey is smooth and successful.
                 </p>
-                <a href="#" class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
+                <a href="#" class="inline-block bg-black text-white font-bold px-8 py-3.5 rounded-md hover:bg-primary transition-all duration-300 shadow-xl shadow-black/10 text-sm">
                     Start Your Consultation
                 </a>
             </div>
@@ -679,11 +610,8 @@
                 </h2>
             </div>
             <div class="pb-2">
-              
-
-                
-    <a href="#" class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        View All Gallery
+                <a href="all-gallery.html" class="inline-block bg-primary text-white font-bold px-8 py-3 rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.5)] hover:bg-white hover:text-black transition-all duration-300 text-sm uppercase tracking-widest">
+                    View All Gallery
                 </a>
             </div>
         </div>
@@ -851,16 +779,6 @@
             </div>
 
         </div>
-        <div class="mt-16 text-center">
-             <a href="#" class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        View All Gallery
-                </a>
-        </div>
-         
-  
-
-   
-</div>
     </div>
 </section>
 
@@ -896,7 +814,7 @@
             </div>
             <div class="pt-1">
                 <p class="text-[9px] md:text-[11px] font-bold tracking-[0.15em] text-[#4a3525] uppercase mb-1 md:mb-2">Get your free consultation today!</p>
-                <h3 class="text-2xl md:text-3xl lg:text-4xl font-serif text-[#1a1109]">+447988138221</h3>
+                <h3 class="text-2xl md:text-3xl lg:text-4xl font-serif text-[#1a1109]">(559) 429-4490</h3>
             </div>
         </div>
     </div>
@@ -919,7 +837,7 @@
                         <p>Michigan Justice has the depth, breadth, and sophistication of a large law firm, but is nimble enough to ensure that all clients receive exceptional service – this means our attorneys are responsive, accessible, and competent. All that matters at the end of the day is that the business needs of the client are being met.</p>
                     </div>
 
-                    <a href="#" class="inline-flex items-center gap-3 mt-12 bg-[#a67c52] hover:bg-[#8a6541] rounded-md transition duration-300 text-white px-8 py-4 text-sm font-semibold tracking-widest uppercase">
+                    <a href="#" class="inline-flex items-center gap-3 mt-12 bg-[#a67c52] hover:bg-[#8a6541] transition duration-300 text-white px-8 py-4 text-sm font-semibold tracking-widest uppercase">
                         Book a consultation <span class="text-lg leading-none font-normal">→</span>
                     </a>
                 </div>
@@ -930,7 +848,7 @@
 </section>
 
 
-<section class="relative py-16 lg:py-20 bg-cover bg-center bg-no-repeat " style="background-image: url('img/process.png');">
+<section class="relative py-12 lg:py-20 bg-cover bg-center bg-no-repeat " style="background-image: url('img/process.png');">
     
     <div class="absolute inset-0 bg-[#0a0d13]/80"></div>
 
@@ -1029,141 +947,116 @@
 
 
 <section id="blog" class="py-16 lg:py-20 bg-gray-50 overflow-hidden">
-    <div class="max-w-[1600px] mx-auto px-6 md:px-10">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
         
         <div class="flex flex-col lg:flex-row justify-between items-end mb-16 gap-6">
             <div class="max-w-2xl">
-               
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="w-12 h-[1px] bg-primary"></span>
+                    <span class="text-primary font-bold text-xs uppercase tracking-[0.2em]">Latest Insights</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-black leading-tight">
+                    Stay updated with <br> <span class="text-gray-400 italic">Legal news</span>
+                </h2>
 
           
             <div class="flex items-center gap-3 mb-6">
                     <span class="w-10 h-[2px] bg-primary"></span>
-                    <span class="text-primary font-bold text-xs uppercase tracking-widest">  Latest Insights</span>
+                    <span class="text-primary font-bold text-xs uppercase tracking-widest">  Our Happy Clients</span>
                 </div>
                 <h2 class="text-2xl md:text-4xl font-black text-black leading-tight mb-8">
-                  Stay updated
-                    <span class="text-primary it">with </span> Legal news
+                   Real
+                    <span class="text-primary it">Clients. </span> Real Success
                 </h2>
             </div>
-           
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            
-            <div class="group cursor-pointer bg-white p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
-                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
-                        <span class="block text-black font-black text-xl leading-none">02</span>
-                        <span class="text-gray-500 text-[10px] uppercase font-bold">Mar 2026</span>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
-                        <span>Immigration</span>
-                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
-                        <span class="text-gray-400 uppercase">Admin</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
-                        New UK Skilled Worker Visa Changes: What You Need to Know
-                    </h3>
-                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
-                        The UK Home Office recently announced significant updates to the minimum salary requirements for Skilled Worker Visas...
-                    </p>
-                    <a href="#" class="inline-flex bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        Read Article <span>→</span>
-                    </a>
-                    
-                </div>
-            </div>
-
-            <div class="group cursor-pointer bg-white p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
-                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
-                        <span class="block text-black font-black text-xl leading-none">28</span>
-                        <span class="text-gray-500 text-[10px] uppercase font-bold">Feb 2026</span>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
-                        <span>Sponsorship</span>
-                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
-                        <span class="text-gray-400 uppercase">Admin</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
-                        How to Maintain Your Sponsor Licence Compliance in 2026
-                    </h3>
-                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
-                        Maintaining a Sponsor Licence requires strict adherence to HRMS records and reporting duties. Our guide covers the essentials...
-                    </p>
-                    <a href="#" class="inline-flex bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        Read Article <span>→</span>
-                    </a>
-                </div>
-            </div>
-
-              <div class="group cursor-pointer bg-white p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
-                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
-                        <span class="block text-black font-black text-xl leading-none">02</span>
-                        <span class="text-gray-500 text-[10px] uppercase font-bold">Mar 2026</span>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
-                        <span>Immigration</span>
-                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
-                        <span class="text-gray-400 uppercase">Admin</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
-                        New UK Skilled Worker Visa Changes: What You Need to Know
-                    </h3>
-                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
-                        The UK Home Office recently announced significant updates to the minimum salary requirements for Skilled Worker Visas...
-                    </p>
-                    <a href="#" class="inline-flex bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        Read Article <span>→</span>
-                    </a>
-                    
-                </div>
-            </div>
-
-            <div class="group cursor-pointer bg-white p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
-                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
-                        <span class="block text-black font-black text-xl leading-none">28</span>
-                        <span class="text-gray-500 text-[10px] uppercase font-bold">Feb 2026</span>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
-                        <span>Sponsorship</span>
-                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
-                        <span class="text-gray-400 uppercase">Admin</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
-                        How to Maintain Your Sponsor Licence Compliance in 2026
-                    </h3>
-                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
-                        Maintaining a Sponsor Licence requires strict adherence to HRMS records and reporting duties. Our guide covers the essentials...
-                    </p>
-                    <a href="#" class="inline-flex bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        Read Article <span>→</span>
-                    </a>
-                </div>
-            </div>
-
-           
-
-        </div>
-
-         <div class="mt-16 text-center">
-             <a href="#" class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
-                        View All Blogs
+            <div class="lg:pb-4">
+                <a href="blog.html" class="group flex items-center gap-3 text-black font-bold hover:text-primary transition-colors">
+                    <span>View All Articles</span>
+                    <span class="w-10 h-10 rounded-full border border-black flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:text-white transition-all">→</span>
                 </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <div class="group cursor-pointer bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
+                        <span class="block text-black font-black text-xl leading-none">02</span>
+                        <span class="text-gray-500 text-[10px] uppercase font-bold">Mar 2026</span>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
+                        <span>Immigration</span>
+                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
+                        <span class="text-gray-400 uppercase">Admin</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
+                        New UK Skilled Worker Visa Changes: What You Need to Know
+                    </h3>
+                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
+                        The UK Home Office recently announced significant updates to the minimum salary requirements for Skilled Worker Visas...
+                    </p>
+                    <a href="#" class="inline-flex items-center gap-2 text-primary text-sm font-bold hover:underline">
+                        Read Article <span>→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
+                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
+                        <span class="block text-black font-black text-xl leading-none">28</span>
+                        <span class="text-gray-500 text-[10px] uppercase font-bold">Feb 2026</span>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
+                        <span>Sponsorship</span>
+                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
+                        <span class="text-gray-400 uppercase">Admin</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
+                        How to Maintain Your Sponsor Licence Compliance in 2026
+                    </h3>
+                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
+                        Maintaining a Sponsor Licence requires strict adherence to HRMS records and reporting duties. Our guide covers the essentials...
+                    </p>
+                    <a href="#" class="inline-flex items-center gap-2 text-primary text-sm font-bold hover:underline">
+                        Read Article <span>→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-[240px] rounded-2xl overflow-hidden mb-6">
+                    <img src="https://images.unsplash.com/photo-1521791136364-728a168b3be5?auto=format&fit=crop&q=80" alt="Blog Image" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg text-center shadow-lg">
+                        <span class="block text-black font-black text-xl leading-none">25</span>
+                        <span class="text-gray-500 text-[10px] uppercase font-bold">Feb 2026</span>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-xs font-bold text-primary uppercase tracking-widest">
+                        <span>Legal Advice</span>
+                        <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
+                        <span class="text-gray-400 uppercase">Admin</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black group-hover:text-primary transition-colors leading-snug line-clamp-2">
+                        The Role of IAA Level 3 Advisers in Complex Appeals
+                    </h3>
+                    <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">
+                        When a visa is refused, you need high-level representation. Understanding how an IAA Level 3 adviser can help win your case...
+                    </p>
+                    <a href="#" class="inline-flex items-center gap-2 text-primary text-sm font-bold hover:underline">
+                        Read Article <span>→</span>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -1272,35 +1165,6 @@
             document.body.style.overflow = 'auto'; 
         });
 
-
-            // Sticky Header Logic
-    const header = document.getElementById('mainHeader');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.classList.add('bg-darkbg/90', 'backdrop-blur-md', 'py-3', 'shadow-2xl', 'border-b', 'border-white/5');
-            header.querySelector('.max-w-\\[1600px\\]').classList.remove('py-5', 'md:py-6');
-            header.querySelector('.max-w-\\[1600px\\]').classList.add('py-3');
-        } else {
-            header.classList.remove('bg-darkbg/90', 'backdrop-blur-md', 'py-3', 'shadow-2xl', 'border-b', 'border-white/5');
-            header.querySelector('.max-w-\\[1600px\\]').classList.add('py-5', 'md:py-6');
-            header.querySelector('.max-w-\\[1600px\\]').classList.remove('py-3');
-        }
-    });
-
-    // Mobile Menu Logic
-    const openMenu = document.getElementById('openMenu');
-    const closeMenu = document.getElementById('closeMenu');
-    const mobileMenu = document.getElementById('mobileMenuOverlay');
-
-    openMenu.addEventListener('click', () => {
-        mobileMenu.classList.remove('translate-x-full');
-        document.body.style.overflow = 'hidden'; // স্ক্রল বন্ধ
-    });
-
-    closeMenu.addEventListener('click', () => {
-        mobileMenu.classList.add('translate-x-full');
-        document.body.style.overflow = 'auto'; // স্ক্রল চালু
-    });
 
      
     function checkTextClamping() {
