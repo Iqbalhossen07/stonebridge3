@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Law - UK Legal Firm</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#b48a3e', // A golden color picked from the image buttons
+                        darkbg: '#0a0d13', // The very dark background color
+                    },
+                    fontFamily: {
+                        base: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-white font-base">
+
+    <div class="relative min-h-screen bg-cover bg-center" style="background-image: url('img/hero.png');">
+        
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <header class="relative z-10 max-w-[1400px] mx-auto px-10 py-8 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4Z" fill="white"/>
+                    <path d="M12 8C10.9 8 10 8.9 10 10V14C10 15.1 10.9 16 12 16C13.1 16 14 15.1 14 14V10C14 8.9 13.1 8 12 8Z" fill="white"/>
+                    <path d="M7 11V13H17V11H7Z" fill="white"/>
+                </svg>
+                <span class="font-bold text-xl">Apex Law</span>
+            </div>
+            <nav class="flex items-center gap-10 text-gray-300">
+                <a href="#" class="hover:text-white">Home</a>
+                <a href="#" class="hover:text-white">How we work</a>
+                <a href="#" class="hover:text-white">Practice Areas</a>
+                <a href="#" class="hover:text-white">Case Results</a>
+                <a href="#" class="hover:text-white">Insights</a>
+            </nav>
+            <a href="#" class="bg-white/10 text-white font-medium px-6 py-3 rounded-full border border-white/20 hover:bg-white/20 transition">Start Your Case</a>
+        </header>
+
+        <main class="relative z-10 max-w-[1400px] mx-auto px-10 pt-24">
+            <p class="text-sm font-light text-gray-300 flex items-center gap-2 mb-6">
+                <span>→</span>
+                Your reliable legal ally for progress
+            </p>
+            <h1 class="text-6xl font-extrabold leading-tight max-w-2xl mb-12">
+                Strong legal support guiding your journey with clarity
+            </h1>
+            <ul class="space-y-4 mb-14 text-gray-200">
+                <li class="flex items-center gap-3">
+                    <span class="w-1.5 h-1.5 bg-gray-200 rounded-full"></span>
+                    Expert Legal Guidance
+                </li>
+                <li class="flex items-center gap-3">
+                    <span class="w-1.5 h-1.5 bg-gray-200 rounded-full"></span>
+                    Proven Success Record
+                </li>
+                <li class="flex items-center gap-3">
+                    <span class="w-1.5 h-1.5 bg-gray-200 rounded-full"></span>
+                    Transparent & Reliable Service
+                </li>
+            </ul>
+            <div class="flex items-center gap-6">
+                <a href="#" class="bg-white text-black font-semibold px-8 py-4 rounded-full border border-primary hover:bg-black/80 hover:text-white transition">Speak to a Lawyer</a>
+                <a href="#" class="bg-black/60 text-white font-semibold px-8 py-4 rounded-full border border-primary/50 hover:bg-black/90 transition">Explore Services</a>
+            </div>
+        </main>
+
+        <div class="absolute bottom-0 left-0 right-0 z-10 w-full max-w-[1400px] mx-auto px-10 pb-8 flex items-center justify-between text-gray-400 text-sm">
+            <div>• Transparent & Reliable Legal Service</div>
+            <div class="flex flex-col items-center gap-1">
+                Scroll to Explore
+                <span>↓</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-darkbg max-w-[1400px] mx-auto px-10 py-16 grid grid-cols-4 items-center">
+        <div class="border-r border-white/10 pr-10">
+            <h3 class="text-lg font-semibold mb-6">Trusted By our customer</h3>
+            <div class="flex items-center gap-4">
+                <div class="flex -space-x-3">
+                    <img class="w-10 h-10 rounded-full border-2 border-darkbg object-cover" src="https://i.pravatar.cc/100?img=1" alt="Avatar">
+                    <img class="w-10 h-10 rounded-full border-2 border-darkbg object-cover" src="https://i.pravatar.cc/100?img=2" alt="Avatar">
+                    <img class="w-10 h-10 rounded-full border-2 border-darkbg object-cover" src="https://i.pravatar.cc/100?img=3" alt="Avatar">
+                    <img class="w-10 h-10 rounded-full border-2 border-darkbg object-cover" src="https://i.pravatar.cc/100?img=4" alt="Avatar">
+                </div>
+                <div>
+                    <span class="text-white text-base font-bold">1000+</span>
+                    <p class="text-gray-400 text-sm">client satisfied</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-r border-white/10 px-10 text-center">
+            <h2 class="text-5xl font-extrabold text-white mb-1">15K+</h2>
+            <p class="text-gray-400 text-sm">Legal Matters Resolved</p>
+        </div>
+
+        <div class="border-r border-white/10 px-10 text-center">
+            <h2 class="text-5xl font-extrabold text-white mb-1">15+</h2>
+            <p class="text-gray-400 text-sm">Years Experience</p>
+        </div>
+
+        <div class="pl-10 text-center">
+            <h2 class="text-5xl font-extrabold text-white mb-1">10K+</h2>
+            <p class="text-gray-400 text-sm">Satisfied Clients</p>
+        </div>
+    </section>
+
+</body>
+</html>
