@@ -134,39 +134,38 @@ function closeVideo() {
   document.body.style.overflow = "auto";
 }
 
-   document.addEventListener("DOMContentLoaded", () => {
-     const counters = document.querySelectorAll(".counter-value");
+const counters = document.querySelectorAll(".counter-value");
+const speed = 200;
 
-     const runCounter = (el) => {
-       const target = +el.getAttribute("data-target");
-       let count = 0; // ১ থেকে গোনা শুরু করার জন্য ০ সেট করা হয়েছে
-       const duration = 2000; // ২ সেকেন্ড এনিমেশন চলবে
-       const increment = target / (duration / 16); // ১৬মি.সে. পর পর আপডেট হবে
+const startCounters = () => {
+  counters.forEach((counter) => {
+    const updateCount = () => {
+      const target = +counter.getAttribute("data-target");
+      const count = +counter.innerText;
+      const inc = target / speed;
 
-       const update = () => {
-         count += increment;
-         if (count < target) {
-           el.innerText = Math.floor(count);
-           requestAnimationFrame(update);
-         } else {
-           el.innerText = target;
-         }
-       };
-       update();
-     };
+      if (count < target) {
+        counter.innerText = Math.ceil(count + inc);
+        setTimeout(updateCount, 15);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    updateCount();
+  });
+};
 
-     // Observer: স্ক্রিনে আসলে এনিমেশন শুরু হবে
-     const observerOptions = {
-       threshold: 0.6,
-     };
-     const observer = new IntersectionObserver((entries) => {
-       entries.forEach((entry) => {
-         if (entry.isIntersecting) {
-           runCounter(entry.target);
-           observer.unobserve(entry.target); // একবারই চলবে
-         }
-       });
-     }, observerOptions);
+// Intersection Observer to start animation when visible
+const observer = new IntersectionObserver(
+  (entries) => {
+    if (entries[0].isIntersecting) {
+      startCounters();
+      observer.disconnect(); // Runs only once
+    }
+  },
+  {
+    threshold: 0.5,
+  },
+);
 
-     counters.forEach((c) => observer.observe(c));
-   });
+observer.observe(document.querySelector("#counters"));

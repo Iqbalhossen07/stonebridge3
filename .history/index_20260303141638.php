@@ -1212,105 +1212,86 @@
 
     <!-- counter -->
 
-
-
     <section id="counters" class="py-16 md:py-20 bg-white overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
 
                 <div
-                    class="group relative p-6 md:p-10 rounded-3xl border border-gray-100 bg-white transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(180,138,62,0.15)] text-center overflow-hidden">
+                    class="relative group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500 text-center">
                     <div
-                        class="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full transition-transform duration-700 group-hover:scale-150">
+                        class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
                     </div>
-
-                    <div class="relative z-10">
-                        <div
-                            class="w-14 h-14 md:w-16 md:h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <i
-                                class="fa-solid fa-users text-xl md:text-2xl transition-transform duration-500 group-hover:rotate-12"></i>
-                        </div>
-                        <div class="flex items-center justify-center gap-1">
-                            <h3 class="text-2xl md:text-5xl font-black text-black tracking-tighter counter-value"
-                                data-target="1500">0</h3>
-                            <span class="text-xl md:text-4xl font-bold text-primary">+</span>
-                        </div>
-                        <p
-                            class="text-gray-400 font-bold text-[8px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.3em] mt-2 md:mt-3">
-                            Worldwide Clients</p>
-                    </div>
+                    <h3 class="text-3xl md:text-5xl font-black text-black mb-2">
+                        <span class="counter-value" data-target="1500">1500</span>+
+                    </h3>
+                    <p class="text-gray-500 font-bold text-xs uppercase tracking-widest">Happy Clients</p>
+                    <span
+                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-primary transition-all duration-500 group-hover:w-1/2 rounded-full"></span>
                 </div>
 
                 <div
-                    class="group relative p-6 md:p-10 rounded-3xl border border-gray-100 bg-white transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(180,138,62,0.15)] text-center overflow-hidden">
+                    class="relative group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500 text-center">
                     <div
-                        class="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full transition-transform duration-700 group-hover:scale-150">
+                        class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
                     </div>
-                    <div class="relative z-10">
-                        <div
-                            class="w-14 h-14 md:w-16 md:h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <i
-                                class="fa-solid fa-award text-xl md:text-2xl transition-transform duration-500 group-hover:-rotate-12"></i>
-                        </div>
-                        <div class="flex items-center justify-center gap-1">
-                            <h3 class="text-2xl md:text-5xl font-black text-black tracking-tighter counter-value"
-                                data-target="98">0</h3>
-                            <span class="text-xl md:text-4xl font-bold text-primary">%</span>
-                        </div>
-                        <p
-                            class="text-gray-400 font-bold text-[8px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.3em] mt-2 md:mt-3">
-                            Success Rate</p>
-                    </div>
+                    <h3 class="text-3xl md:text-5xl font-black text-black mb-2">
+                        <span class="counter-value" data-target="99">99</span>%
+                    </h3>
+                    <p class="text-gray-500 font-bold text-xs uppercase tracking-widest">Success Rate</p>
+                    <span
+                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-primary transition-all duration-500 group-hover:w-1/2 rounded-full"></span>
                 </div>
 
                 <div
-                    class="group relative p-6 md:p-10 rounded-3xl border border-gray-100 bg-white transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(180,138,62,0.15)] text-center overflow-hidden">
+                    class="relative group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500 text-center">
                     <div
-                        class="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full transition-transform duration-700 group-hover:scale-150">
+                        class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
                     </div>
-                    <div class="relative z-10">
-                        <div
-                            class="w-14 h-14 md:w-16 md:h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <i
-                                class="fa-solid fa-briefcase text-xl md:text-2xl transition-transform duration-500 group-hover:rotate-12"></i>
-                        </div>
-                        <div class="flex items-center justify-center gap-1">
-                            <h3 class="text-2xl md:text-5xl font-black text-black tracking-tighter counter-value"
-                                data-target="15">0</h3>
-                            <span class="text-xl md:text-4xl font-bold text-primary">+</span>
-                        </div>
-                        <p
-                            class="text-gray-400 font-bold text-[8px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.3em] mt-2 md:mt-3">
-                            Years Experience</p>
-                    </div>
+                    <h3 class="text-3xl md:text-5xl font-black text-black mb-2">
+                        <span class="counter-value" data-target="15">15</span>+
+                    </h3>
+                    <p class="text-gray-500 font-bold text-xs uppercase tracking-widest">Years Experience</p>
+                    <span
+                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-primary transition-all duration-500 group-hover:w-1/2 rounded-full"></span>
                 </div>
 
                 <div
-                    class="group relative p-6 md:p-10 rounded-3xl border border-gray-100 bg-white transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(180,138,62,0.15)] text-center overflow-hidden">
+                    class="relative group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500 text-center">
                     <div
-                        class="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full transition-transform duration-700 group-hover:scale-150">
+                        class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                            </path>
+                        </svg>
                     </div>
-                    <div class="relative z-10">
-                        <div
-                            class="w-14 h-14 md:w-16 md:h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <i
-                                class="fa-solid fa-scale-balanced text-xl md:text-2xl transition-transform duration-500 group-hover:-rotate-12"></i>
-                        </div>
-                        <div class="flex items-center justify-center gap-1">
-                            <h3 class="text-2xl md:text-5xl font-black text-black tracking-tighter counter-value"
-                                data-target="25">0</h3>
-                            <span class="text-xl md:text-4xl font-bold text-primary">+</span>
-                        </div>
-                        <p
-                            class="text-gray-400 font-bold text-[8px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.3em] mt-2 md:mt-3">
-                            Expert Team</p>
-                    </div>
+                    <h3 class="text-3xl md:text-5xl font-black text-black mb-2">
+                        <span class="counter-value" data-target="12">12</span>
+                    </h3>
+                    <p class="text-gray-500 font-bold text-xs uppercase tracking-widest">Global Offices</p>
+                    <span
+                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-primary transition-all duration-500 group-hover:w-1/2 rounded-full"></span>
                 </div>
 
             </div>
         </div>
     </section>
+
 
 
 

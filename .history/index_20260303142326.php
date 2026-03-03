@@ -1214,7 +1214,7 @@
 
 
 
-    <section id="counters" class="py-16 md:py-20 bg-white overflow-hidden">
+    <section id="counters" class="py-16 md:py-24 bg-white overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
