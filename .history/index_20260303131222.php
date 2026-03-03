@@ -587,7 +587,7 @@
     </section>
 
     <!-- about section -->
-    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden ">
+    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden my-20">
         <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
 
             <div class="relative w-full lg:w-[45%] min-h-[500px] lg:min-h-[650px] bg-cover bg-center"

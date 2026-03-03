@@ -1,8 +1,7 @@
-<!-- head section -->
 <?php include('head.php') ?>
 
 <body class="bg-darkbg text-white font-base font-body">
-    <!--hero section  -->
+
     <section id="hero" class="relative min-h-screen mobile-hero-section flex flex-col lg:block overflow-hidden">
 
         <?php include('header.php') ?>
@@ -76,7 +75,7 @@
     </section>
 
 
-    <!--  testimonial section-->
+
 
     <section id="testimonials" class="relative py-16 lg:py-20 bg-white overflow-hidden border-t border-gray-100">
         <div class="relative z-10 max-w-[1600px] mx-auto px-6 md:px-10">
@@ -330,7 +329,7 @@
     </section>
 
 
-    <!-- services section -->
+
     <section id="services" class="bg-white py-16 lg:py-20 overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10 relative">
 
@@ -586,8 +585,7 @@
         </div>
     </section>
 
-    <!-- about section -->
-    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden ">
+    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden my-20">
         <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
 
             <div class="relative w-full lg:w-[45%] min-h-[500px] lg:min-h-[650px] bg-cover bg-center"

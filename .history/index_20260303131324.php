@@ -587,10 +587,10 @@
     </section>
 
     <!-- about section -->
-    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden ">
-        <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden my-20">
+        <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto min-h-screen">
 
-            <div class="relative w-full lg:w-[45%] min-h-[500px] lg:min-h-[650px] bg-cover bg-center"
+            <div class="relative w-full lg:w-[45%] h-[60vh] lg:h-auto bg-cover bg-center"
                 style="background-image: url('img/bookshelf-bg.jpg');">
 
                 <div class="absolute inset-0 bg-[#1a1410]/40 z-0"></div>
@@ -625,35 +625,33 @@
                 </div>
             </div>
 
-            <div class="relative w-full lg:w-[55%] px-6 py-16 lg:py-20 lg:pl-16 flex items-center">
+            <div class="relative w-full lg:w-[55%] px-6 py-10 lg:py-0 lg:pl-16 flex items-center bg-transparent">
 
-                <div class="relative w-full max-w-2xl pl-8 md:pl-10 py-10">
+                <div class="relative w-full max-w-2xl pl-8 md:pl-10 py-10 lg:py-16">
                     <span class="absolute top-0 left-0 w-[60%] h-[1px] bg-white/30"></span>
                     <span class="absolute top-0 left-0 w-[1px] h-full bg-white/30"></span>
                     <span class="absolute bottom-0 left-0 w-[95%] h-[1px] bg-white/30"></span>
                     <span class="absolute bottom-0 right-[5%] w-[1px] h-[35%] bg-white/30"></span>
 
                     <div class="relative z-10">
-                        <h2 class="text-4xl md:text-5xl font-serif text-[#d2ad83] mb-3 tracking-wider uppercase">You
-                            Have A Story</h2>
-                        <h3 class="text-lg md:text-xl text-white tracking-[0.2em] uppercase font-light mb-10">It's Our
+                        <h2
+                            class="text-4xl md:text-5xl font-serif text-[#d2ad83] mb-3 tracking-wider uppercase leading-tight">
+                            You Have A Story</h2>
+                        <h3 class="text-lg md:text-xl text-white tracking-[0.2em] uppercase font-light mb-8">It's Our
                             Job to Honor It</h3>
 
                         <div
                             class="space-y-6 text-gray-300 text-sm md:text-[15px] leading-relaxed font-light pr-4 md:pr-10">
                             <p>Michigan Justice is all about values. We value our clients, community, and employees. Our
                                 clients value a personal level of care; therefore, we strive for deep, meaningful,
-                                people-first relationships with each one. Every unique matter is staffed at the
-                                appropriate level of expertise and personnel to maximize the value the client deserves.
-                            </p>
-                            <p>Michigan Justice has the depth, breadth, and sophistication of a large law firm, but is
+                                people-first relationships with each one.</p>
+                            <p>Our firm has the depth, breadth, and sophistication of a large law firm, but is
                                 nimble enough to ensure that all clients receive exceptional service – this means our
-                                attorneys are responsive, accessible, and competent. All that matters at the end of the
-                                day is that the business needs of the client are being met.</p>
+                                attorneys are responsive, accessible, and competent.</p>
                         </div>
 
                         <a href="#"
-                            class="inline-flex items-center gap-3 mt-12 bg-[#a67c52] hover:bg-[#8a6541] rounded-md transition duration-300 text-white px-8 py-4 text-sm font-semibold tracking-widest uppercase">
+                            class="inline-flex items-center gap-3 mt-10 bg-[#a67c52] hover:bg-[#8a6541] rounded-md transition duration-300 text-white px-8 py-4 text-sm font-semibold tracking-widest uppercase shadow-lg">
                             Book a consultation <span class="text-lg leading-none font-normal">→</span>
                         </a>
                     </div>

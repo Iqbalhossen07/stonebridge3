@@ -1,8 +1,7 @@
-<!-- head section -->
 <?php include('head.php') ?>
 
 <body class="bg-darkbg text-white font-base font-body">
-    <!--hero section  -->
+
     <section id="hero" class="relative min-h-screen mobile-hero-section flex flex-col lg:block overflow-hidden">
 
         <?php include('header.php') ?>
@@ -76,7 +75,7 @@
     </section>
 
 
-    <!--  testimonial section-->
+
 
     <section id="testimonials" class="relative py-16 lg:py-20 bg-white overflow-hidden border-t border-gray-100">
         <div class="relative z-10 max-w-[1600px] mx-auto px-6 md:px-10">
@@ -330,7 +329,7 @@
     </section>
 
 
-    <!-- services section -->
+
     <section id="services" class="bg-white py-16 lg:py-20 overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10 relative">
 
@@ -583,83 +582,6 @@
                 </div>
 
             </div>
-        </div>
-    </section>
-
-    <!-- about section -->
-    <section class="relative bg-gradient-to-br from-[#1c1612] via-[#241c16] to-[#33251a] overflow-hidden ">
-        <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
-
-            <div class="relative w-full lg:w-[45%] min-h-[500px] lg:min-h-[650px] bg-cover bg-center"
-                style="background-image: url('img/bookshelf-bg.jpg');">
-
-                <div class="absolute inset-0 bg-[#1a1410]/40 z-0"></div>
-
-                <div class="absolute inset-0 z-10 overflow-hidden">
-                    <img src="img/about.png" alt="Lawyer" class="w-full h-full object-cover object-bottom">
-
-                    <div class="absolute top-0 inset-x-0 h-24 bg-gradient-to-b from-[#1c1612] to-transparent"></div>
-                    <div class="absolute bottom-0 inset-x-0 h-32 bg-gradient-to-t from-[#1c1612] to-transparent"></div>
-                    <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#1c1612] to-transparent"></div>
-                    <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#241c16] to-transparent"></div>
-                </div>
-
-                <div class="absolute bottom-0 left-0 w-[90%] md:w-[85%] bg-[#e0d0bd] p-6 md:p-8 z-20"
-                    style="clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);">
-                    <div class="flex items-center gap-4 md:gap-6">
-                        <div
-                            class="w-12 h-12 md:w-14 md:h-14 bg-[#a67c52] rounded-full flex items-center justify-center shrink-0 text-white shadow-lg">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                                <path
-                                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="pt-1">
-                            <p
-                                class="text-[9px] md:text-[11px] font-bold tracking-[0.15em] text-[#4a3525] uppercase mb-1 md:mb-2">
-                                Get your free consultation today!</p>
-                            <h3 class="text-2xl md:text-3xl lg:text-4xl font-serif text-[#1a1109]">+447988138221</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="relative w-full lg:w-[55%] px-6 py-16 lg:py-20 lg:pl-16 flex items-center">
-
-                <div class="relative w-full max-w-2xl pl-8 md:pl-10 py-10">
-                    <span class="absolute top-0 left-0 w-[60%] h-[1px] bg-white/30"></span>
-                    <span class="absolute top-0 left-0 w-[1px] h-full bg-white/30"></span>
-                    <span class="absolute bottom-0 left-0 w-[95%] h-[1px] bg-white/30"></span>
-                    <span class="absolute bottom-0 right-[5%] w-[1px] h-[35%] bg-white/30"></span>
-
-                    <div class="relative z-10">
-                        <h2 class="text-4xl md:text-5xl font-serif text-[#d2ad83] mb-3 tracking-wider uppercase">You
-                            Have A Story</h2>
-                        <h3 class="text-lg md:text-xl text-white tracking-[0.2em] uppercase font-light mb-10">It's Our
-                            Job to Honor It</h3>
-
-                        <div
-                            class="space-y-6 text-gray-300 text-sm md:text-[15px] leading-relaxed font-light pr-4 md:pr-10">
-                            <p>Michigan Justice is all about values. We value our clients, community, and employees. Our
-                                clients value a personal level of care; therefore, we strive for deep, meaningful,
-                                people-first relationships with each one. Every unique matter is staffed at the
-                                appropriate level of expertise and personnel to maximize the value the client deserves.
-                            </p>
-                            <p>Michigan Justice has the depth, breadth, and sophistication of a large law firm, but is
-                                nimble enough to ensure that all clients receive exceptional service – this means our
-                                attorneys are responsive, accessible, and competent. All that matters at the end of the
-                                day is that the business needs of the client are being met.</p>
-                        </div>
-
-                        <a href="#"
-                            class="inline-flex items-center gap-3 mt-12 bg-[#a67c52] hover:bg-[#8a6541] rounded-md transition duration-300 text-white px-8 py-4 text-sm font-semibold tracking-widest uppercase">
-                            Book a consultation <span class="text-lg leading-none font-normal">→</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
