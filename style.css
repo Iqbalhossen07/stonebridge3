@@ -1,0 +1,96 @@
+
+        /* ডেক্সটপ লেআউট ফিক্স */
+        @media (min-width: 1024px) {
+            .hero-content-desktop {
+                padding-top: 140px; 
+                padding-bottom: 60px; 
+            }
+            .hero-gradient {
+                background: linear-gradient(to right, rgba(10,13,19,0.95) 0%, rgba(10,13,19,0.5) 50%, rgba(10,13,19,0) 100%);
+            }
+        }
+
+        /* মোবাইল ভিউ পিক্সেল পারফেক্ট */
+        @media (max-width: 1023px) {
+            .mobile-hero-section {
+                min-height: 80vh !important; 
+            }
+            .mobile-hero-bg {
+                position: absolute;
+                inset: 0;
+                height: 48vh; 
+                background-image: url('img/hero.png');
+                background-size: cover;
+                background-position: center right -4rem;
+                z-index: 1;
+            }
+            .mobile-overlay {
+                background: linear-gradient(to bottom, rgba(10,13,19,0.1) 0%, rgba(10,13,19,0.8) 50%, rgba(10,13,19,1) 85%);
+            }
+            .mobile-content-wrapper {
+                margin-top: 12vh; 
+                position: relative;
+                z-index: 10;
+                padding-bottom: 20px;
+            }
+            .stats-mobile-up {
+                margin-top: -80px; 
+            }
+        }
+
+        /* JavaScript মোবাইল মেনুর জন্য স্টাইল */
+        #mobileMenuOverlay {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%);
+        }
+        #mobileMenuOverlay.active {
+            transform: translateX(0);
+        }
+
+        /* প্রিমিয়াম ইনফিনিট স্মুথ স্লাইডার */
+        @keyframes scroll-infinite {
+            0% { transform: translateX(0); }
+            /* calc(-50% - 12px) কারণ gap-6 (24px) এর অর্ধেক 12px, যাতে লুপটা পারফেক্টলি মিলে যায় */
+            100% { transform: translateX(calc(-50% - 12px)); }
+        }
+        .animate-scroll {
+            animation: scroll-infinite 35s linear infinite;
+        }
+        .animate-scroll:hover {
+            animation-play-state: paused;
+        }
+        
+        /* টাচ ডিভাইসেও স্মুথনেস বজায় রাখার জন্য */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+         @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .line-clamp-1 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+  
+
+        @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .animate-marquee {
+        animation: marquee 35s linear infinite;
+    }
