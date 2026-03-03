@@ -6,10 +6,24 @@
 
         <?php include('header.php') ?>
 
-        <div class="mobile-hero-bg lg:absolute lg:inset-0 bg-cover bg-no-repeat lg:bg-center z-1"
-            style="background-image: url('img/hero.png');">
-            <div class="hidden lg:block absolute inset-0 hero-gradient"></div>
-            <div class="lg:hidden absolute inset-0 mobile-overlay z-2"></div>
+        <div class="absolute inset-0 z-1">
+            <div class="relative w-full h-full overflow-hidden">
+                <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-1000 ease-in-out">
+                    <div class="w-full h-full bg-cover bg-no-repeat lg:bg-center"
+                        style="background-image: url('img/hero.png');"></div>
+                </div>
+                <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                    <div class="w-full h-full bg-cover bg-no-repeat lg:bg-center"
+                        style="background-image: url('img/s (3).png');"></div>
+                </div>
+                <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                    <div class="w-full h-full bg-cover bg-no-repeat lg:bg-center"
+                        style="background-image: url('img/process.png');"></div>
+                </div>
+
+                <div class="hidden lg:block absolute inset-0 hero-gradient z-2"></div>
+                <div class="lg:hidden absolute inset-0 mobile-overlay z-2"></div>
+            </div>
         </div>
 
         <div
@@ -17,8 +31,7 @@
             <div class="max-w-3xl">
                 <p
                     class="text-white font-medium flex items-center gap-3 mb-4 lg:mb-6 tracking-wide text-xs md:text-base">
-                    <span>→</span>
-                    Stonebridge Legal Solutions
+                    <span>→</span> Stonebridge Legal Solutions
                 </p>
 
                 <h1 class="text-3xl md:text-5xl font-bold leading-[1.2] md:leading-[1.1] mb-6 md:mb-10 text-white">
@@ -40,13 +53,11 @@
 
                 <div class="flex flex-row items-center gap-3 sm:gap-4">
                     <a href="#"
-                        class="flex-1 sm:flex-none bg-white text-black text-center font-bold px-6 py-2.5 md:py-3 rounded-md shadow-lg shadow-white/10 hover:bg-gray-100 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
-                        Our Services
-                    </a>
+                        class="flex-1 sm:flex-none bg-white text-black text-center font-bold px-6 py-2.5 md:py-3 rounded-md shadow-lg shadow-white/10 hover:bg-gray-100 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">Our
+                        Services</a>
                     <a href="#"
-                        class="flex-1 sm:flex-none bg-white/10 backdrop-blur-md text-white text-center font-bold px-6 py-2.5 md:py-3 rounded-md border border-white/20 shadow-lg shadow-black/40 hover:bg-black/40 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">
-                        Happy Clients
-                    </a>
+                        class="flex-1 sm:flex-none bg-white/10 backdrop-blur-md text-white text-center font-bold px-6 py-2.5 md:py-3 rounded-md border border-white/20 shadow-lg shadow-black/40 hover:bg-black/40 transition duration-300 text-[13px] sm:text-base whitespace-nowrap">Happy
+                        Clients</a>
                 </div>
             </div>
         </div>
@@ -62,6 +73,7 @@
             </div>
         </div>
     </section>
+
 
     <section id="stats" class="relative z-20 bg-darkbg border-t border-white/5 py-12 lg:py-20 stats-mobile-up">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">

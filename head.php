@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stonebridge Legal Solutions</title>
+    <title><?php echo isset($pageTitle) ? $pageTitle . " | Stonebridge Legal" : "Stonebridge Legal Solutions"; ?>
+    </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +17,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#b48a3e',
-                        darkbg: '#0a0d13',
-                    },
-                    fontFamily: {
-                        heading: ['Merriweather', 'serif'],
-                        body: ['Lora', 'serif'],
-                    },
-                }
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#b48a3e',
+                    darkbg: '#0a0d13',
+                },
+                fontFamily: {
+                    heading: ['Merriweather', 'serif'],
+                    body: ['Lora', 'serif'],
+                },
             }
         }
+    }
     </script>
 
     <link rel="stylesheet" href="style.css?v=<?= time(); ?>">

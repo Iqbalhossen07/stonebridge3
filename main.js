@@ -46,6 +46,18 @@
         document.body.style.overflow = 'auto'; // স্ক্রল চালু
     });
 
+// hero slider
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".hero-slide");
+
+      function nextSlide() {
+        slides[currentSlide].style.opacity = "0";
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].style.opacity = "1";
+      }
+
+      // প্রতি ৫ সেকেন্ড পর পর স্লাইড চেঞ্জ হবে
+      setInterval(nextSlide, 5000);
 
     function checkTextClamping() {
         const testimonials = document.querySelectorAll('.testimonial-text');
