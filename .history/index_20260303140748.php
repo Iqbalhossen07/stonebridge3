@@ -1020,13 +1020,13 @@
         </div>
     </section>
     <!-- video section -->
-    <section id="video-gallery" class="py-16 md:py-20 bg-darkbg overflow-hidden">
+    <section id="video-gallery" class="py-16 md:py-24 bg-darkbg overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
             <div class="max-w-2xl mb-16">
                 <div class="flex items-center gap-3 mb-6">
                     <span class="w-10 h-[2px] bg-primary"></span>
-                    <span class="text-primary font-bold text-xs uppercase tracking-[0.3em]">Video Resources </span>
+                    <span class="text-primary font-bold text-xs uppercase tracking-[0.3em]">Video Resources</span>
                 </div>
                 <h2 class="text-2xl md:text-4xl font-black text-white leading-tight">
                     Our Legal <span class="text-primary italic">Insights</span> & Guides
@@ -1035,26 +1035,26 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer"
                     onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
 
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#0a0d13_50%,#b48a3e_100%)] opacity-60">
                     </div>
 
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        class="absolute inset-[-1000%] animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#ffffff_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     </div>
 
                     <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-[#11161d] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#161c24]">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
                                 class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
                                 <div
-                                    class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                                    class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -1062,31 +1062,31 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">UK
+                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">UK
                                 Spouse Visa Guide 2026</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Everything you need to know about financial
-                                requirements and documents.</p>
+                            <p class="text-gray-400 text-xs line-clamp-2 leading-relaxed">Everything you need to know
+                                about financial requirements and documents.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
-                    onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer"
+                    onclick="openVideo('...')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#0a0d13_50%,#b48a3e_100%)] opacity-60">
                     </div>
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        class="absolute inset-[-1000%] animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#ffffff_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     </div>
                     <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-[#11161d] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#161c24]">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1521791136364-728a168b3be5?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
                                 class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
                                 <div
-                                    class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                                    class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -1094,31 +1094,31 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
+                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">
                                 Sponsor Licence Compliance</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">How businesses can maintain their HR systems
+                            <p class="text-gray-400 text-xs line-clamp-2">How businesses can maintain their HR systems
                                 for Home Office audits.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
-                    onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer"
+                    onclick="openVideo('...')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#0a0d13_50%,#b48a3e_100%)] opacity-60">
                     </div>
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        class="absolute inset-[-1000%] animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#ffffff_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     </div>
                     <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-[#11161d] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#161c24]">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
-                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/40 transition-all">
+                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
                                 <div
-                                    class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                                    class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -1126,31 +1126,31 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
+                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">
                                 Winning Asylum Appeals</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Expert insights on handling IAA Level 3
-                                complex asylum representation.</p>
+                            <p class="text-gray-400 text-xs line-clamp-2">Expert insights on handling complex legal
+                                appeals and representation.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
-                    onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer"
+                    onclick="openVideo('...')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#0a0d13_50%,#b48a3e_100%)] opacity-60">
                     </div>
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        class="absolute inset-[-1000%] animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#ffffff_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     </div>
                     <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-[#11161d] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#161c24]">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
                                 class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
                                 <div
-                                    class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
+                                    class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -1158,10 +1158,10 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
-                                Legal Research 2026</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Providing insights into the latest UK legal
-                                research methodologies.</p>
+                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">
+                                Success Stories 2026</h3>
+                            <p class="text-gray-400 text-xs line-clamp-2">Our clients share their journey toward a
+                                successful UK settlement.</p>
                         </div>
                     </div>
                 </div>
@@ -1170,23 +1170,12 @@
 
             <div class="mt-16 text-center">
                 <a href="#"
-                    class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-white hover:text-black transition-all duration-300 shadow-xl shadow-black/10 text-sm uppercase tracking-widest">
-                    View All Gallery
+                    class="inline-block bg-primary text-white font-bold px-10 py-4 rounded-md hover:bg-white hover:text-black transition-all duration-300 shadow-xl shadow-primary/20 text-sm uppercase tracking-widest">
+                    View All Resources
                 </a>
             </div>
         </div>
     </section>
-
-    <div id="video-modal"
-        class="fixed inset-0 z-[1000] hidden items-center justify-center bg-black/95 backdrop-blur-sm p-4">
-        <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
-            <button onclick="closeVideo()"
-                class="absolute top-4 right-4 z-50 text-white/70 hover:text-white text-4xl">&times;</button>
-            <iframe id="video-iframe" class="w-full h-full" src="" frameborder="0" allow="autoplay; fullscreen"
-                allowfullscreen></iframe>
-        </div>
-    </div>
-
 
 
 

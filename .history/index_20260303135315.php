@@ -663,7 +663,7 @@
         </div>
     </section>
 
-    <!-- why choose us section -->
+    <!-- wh -->
     <section id="why-choose-us" class="py-16 lg:py-20 bg-white overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
             <div class="flex flex-col lg:flex-row gap-16 items-center">
@@ -742,139 +742,7 @@
         </div>
     </section>
 
-    <!-- process section -->
 
-    <section class="relative py-16 lg:py-20 bg-cover bg-center bg-no-repeat "
-        style="background-image: url('img/process.png');">
-
-        <div class="absolute inset-0 bg-[#0a0d13]/80"></div>
-
-        <div class="relative z-10 max-w-[1600px] mx-auto px-6 md:px-10">
-
-            <div class="flex flex-col lg:flex-row justify-between items-end gap-6 mb-12">
-                <div class="max-w-2xl">
-
-                    <div class="flex items-center gap-3 mb-6">
-                        <span class="w-10 h-[2px] bg-primary"></span>
-                        <span class="text-primary font-bold text-xs uppercase tracking-[0.3em]"> Our Legal Process
-                        </span>
-                    </div>
-
-                    <h2 class="text-2xl lg:text-4xl font-bold leading-tight text-white mb-4">
-                        Your Journey <span class="text-primary italic">Toward the</span><br>Right Legal Solution
-                    </h2>
-                    <p class="text-gray-400 text-sm leading-relaxed max-w-lg">
-                        Our structured legal process ensures clarity, confidence, and step-by-step guidance for the best
-                        possible outcome.
-                    </p>
-                </div>
-
-                <div class="hidden lg:block pb-1">
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:border-white/40 transition duration-300 font-medium text-sm">
-                        Explore More
-                    </a>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-
-                <div
-                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
-                    <div
-                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-white text-lg font-bold mb-3">Detailed Case Understanding</h3>
-                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
-                        We begin by listening carefully, reviewing your documents, and identifying the legal paths
-                        available.
-                    </p>
-                    <a href="#"
-                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
-                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-
-                <div
-                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
-                    <div
-                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-white text-lg font-bold mb-3">Research & Strategic Planning</h3>
-                    <p class="text-gray-400 text-base leading-relaxed mb-5 ">
-                        Our team analyzes your case, studies relevant laws, and builds a strong, step-by-step strategy.
-                    </p>
-                    <a href="#"
-                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
-                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-
-                <div
-                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
-                    <div
-                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-white text-lg font-bold mb-3">Legal Case Representation</h3>
-                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
-                        We take action on your behalf with confident advocacy, proper documentation, and consistent
-                        communication.
-                    </p>
-                    <a href="#"
-                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
-                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-
-                <div
-                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
-                    <div
-                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-white text-lg font-bold mb-3">Resolution & Ongoing Support</h3>
-                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
-                        Once the case progresses, we guide you through final steps and ensure you remain protected
-                        moving forward.
-                    </p>
-                    <a href="#"
-                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
-                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="mt-8 lg:hidden text-center">
-                <a href="#"
-                    class="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 transition duration-300 font-medium w-full text-sm">
-                    Explore More
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- gallery section -->
     <section id="gallery" class="py-16 lg:py-20 bg-[#05070a] overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
@@ -1019,8 +887,8 @@
             </div>
         </div>
     </section>
-    <!-- video section -->
-    <section id="video-gallery" class="py-16 md:py-20 bg-darkbg overflow-hidden">
+
+    <section id="video-gallery" class="py-16 md:py-20 bg-white overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
             <div class="max-w-2xl mb-16">
@@ -1028,31 +896,26 @@
                     <span class="w-10 h-[2px] bg-primary"></span>
                     <span class="text-primary font-bold text-xs uppercase tracking-[0.3em]">Video Resources </span>
                 </div>
-                <h2 class="text-2xl md:text-4xl font-black text-white leading-tight">
+                <h2 class="text-2xl md:text-4xl font-black text-black leading-tight">
                     Our Legal <span class="text-primary italic">Insights</span> & Guides
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden bg-gray-100 h-full cursor-pointer"
                     onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
-
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] group-hover:animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]">
                     </div>
 
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-
-                    <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-white rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
-                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
+                                class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
                                 <div
                                     class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -1062,29 +925,25 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">UK
-                                Spouse Visa Guide 2026</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Everything you need to know about financial
+                            <h3 class="text-xl font-bold text-black mb-2">UK Spouse Visa Guide 2026</h3>
+                            <p class="text-gray-500 text-sm line-clamp-2">Everything you need to know about financial
                                 requirements and documents.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden bg-gray-100 h-full cursor-pointer"
                     onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_5s_linear_infinite] group-hover:animate-[spin_2.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]">
                     </div>
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-                    <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-white rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1521791136364-728a168b3be5?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
-                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
+                                class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
                                 <div
                                     class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -1094,29 +953,25 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
-                                Sponsor Licence Compliance</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">How businesses can maintain their HR systems
+                            <h3 class="text-xl font-bold text-black mb-2">Sponsor Licence Compliance</h3>
+                            <p class="text-gray-500 text-sm line-clamp-2">How businesses can maintain their HR systems
                                 for Home Office audits.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden bg-gray-100 h-full cursor-pointer"
                     onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] group-hover:animate-[spin_1.5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]">
                     </div>
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-                    <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-white rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
-                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/40 transition-all">
+                                class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
                                 <div
                                     class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -1126,29 +981,25 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
-                                Winning Asylum Appeals</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Expert insights on handling IAA Level 3
+                            <h3 class="text-xl font-bold text-black mb-2">Winning Asylum Appeals</h3>
+                            <p class="text-gray-500 text-sm line-clamp-2">Expert insights on handling IAA Level 3
                                 complex asylum representation.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="relative group p-[2px] rounded-2xl overflow-hidden h-full cursor-pointer bg-white/5"
+                <div class="relative group p-[2px] rounded-2xl overflow-hidden bg-gray-100 h-full cursor-pointer"
                     onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ')">
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#111827_50%,#b48a3e_100%)] opacity-40">
+                        class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] group-hover:animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#b48a3e_0%,#ffffff_50%,#b48a3e_100%)]">
                     </div>
+
                     <div
-                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,transparent_25%,#b48a3e_50%,transparent_75%,#ffffff_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    </div>
-                    <div
-                        class="relative bg-[#0d1117] rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-[#12181f]">
+                        class="relative bg-white rounded-2xl p-2 h-full flex flex-col z-10 transition-all duration-500 group-hover:bg-white/90">
                         <div class="relative aspect-video rounded-2xl overflow-hidden mb-6">
                             <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                             <div
-                                class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-all">
+                                class="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/40 transition-all">
                                 <div
                                     class="w-14 h-14 bg-white/90 text-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-125 transition-all">
                                     <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -1158,27 +1009,30 @@
                             </div>
                         </div>
                         <div class="px-4 pb-6">
-                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
-                                Legal Research 2026</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">Providing insights into the latest UK legal
-                                research methodologies.</p>
+                            <h3 class="text-xl font-bold text-black mb-2">UK Spouse Visa Guide 2026</h3>
+                            <p class="text-gray-500 text-sm line-clamp-2">Everything you need to know about financial
+                                requirements and documents.</p>
                         </div>
                     </div>
                 </div>
 
             </div>
-
             <div class="mt-16 text-center">
                 <a href="#"
-                    class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-white hover:text-black transition-all duration-300 shadow-xl shadow-black/10 text-sm uppercase tracking-widest">
+                    class="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-md hover:bg-black transition-all duration-300 shadow-xl shadow-black/10 text-sm">
                     View All Gallery
                 </a>
             </div>
+
+
+
+
+        </div>
         </div>
     </section>
 
     <div id="video-modal"
-        class="fixed inset-0 z-[1000] hidden items-center justify-center bg-black/95 backdrop-blur-sm p-4">
+        class="fixed inset-0 z-[1000] hidden items-center justify-center bg-black/90 backdrop-blur-sm p-4">
         <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
             <button onclick="closeVideo()"
                 class="absolute top-4 right-4 z-50 text-white/70 hover:text-white text-4xl">&times;</button>
@@ -1190,9 +1044,139 @@
 
 
 
+    <section class="relative py-16 lg:py-20 bg-cover bg-center bg-no-repeat "
+        style="background-image: url('img/process.png');">
+
+        <div class="absolute inset-0 bg-[#0a0d13]/80"></div>
+
+        <div class="relative z-10 max-w-[1600px] mx-auto px-6 md:px-10">
+
+            <div class="flex flex-col lg:flex-row justify-between items-end gap-6 mb-12">
+                <div class="max-w-2xl">
+
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="w-10 h-[2px] bg-primary"></span>
+                        <span class="text-primary font-bold text-xs uppercase tracking-[0.3em]"> Our Legal Process
+                        </span>
+                    </div>
+
+                    <h2 class="text-2xl lg:text-4xl font-bold leading-tight text-white mb-4">
+                        Your Journey <span class="text-primary italic">Toward the</span><br>Right Legal Solution
+                    </h2>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-lg">
+                        Our structured legal process ensures clarity, confidence, and step-by-step guidance for the best
+                        possible outcome.
+                    </p>
+                </div>
+
+                <div class="hidden lg:block pb-1">
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:border-white/40 transition duration-300 font-medium text-sm">
+                        Explore More
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <div
+                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
+                    <div
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-white text-lg font-bold mb-3">Detailed Case Understanding</h3>
+                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
+                        We begin by listening carefully, reviewing your documents, and identifying the legal paths
+                        available.
+                    </p>
+                    <a href="#"
+                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
+                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
+                    <div
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-white text-lg font-bold mb-3">Research & Strategic Planning</h3>
+                    <p class="text-gray-400 text-base leading-relaxed mb-5 ">
+                        Our team analyzes your case, studies relevant laws, and builds a strong, step-by-step strategy.
+                    </p>
+                    <a href="#"
+                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
+                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
+                    <div
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-white text-lg font-bold mb-3">Legal Case Representation</h3>
+                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
+                        We take action on your behalf with confident advocacy, proper documentation, and consistent
+                        communication.
+                    </p>
+                    <a href="#"
+                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
+                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:-translate-y-1 transition duration-300 group shadow-lg">
+                    <div
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center mb-5 text-gray-300 group-hover:border-primary group-hover:text-primary transition">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-white text-lg font-bold mb-3">Resolution & Ongoing Support</h3>
+                    <p class="text-gray-400 text-base leading-relaxed mb-5 min-h-[60px]">
+                        Once the case progresses, we guide you through final steps and ensure you remain protected
+                        moving forward.
+                    </p>
+                    <a href="#"
+                        class="text-white text-sm font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
+                        Learn more <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="mt-8 lg:hidden text-center">
+                <a href="#"
+                    class="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 transition duration-300 font-medium w-full text-sm">
+                    Explore More
+                </a>
+            </div>
+
+        </div>
+    </section>
 
 
-    <!-- blog section -->
+
+
+
     <section id="blog" class="py-16 lg:py-20 bg-gray-50 overflow-hidden">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
 
