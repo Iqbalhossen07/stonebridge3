@@ -1214,7 +1214,7 @@
 
     <!-- matrix and news -->
 
-    <section id="stats" class="relative z-20 bg-white border-t border-white/5 py-12 lg:py-20 stats-mobile-up">
+    <section id="stats" class="relative z-20 bg-darkbg border-t border-white/5 py-12 lg:py-20 stats-mobile-up">
         <div class="max-w-[1600px] mx-auto px-6 md:px-10">
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 lg:gap-y-0">
                 <div class="col-span-2 lg:col-span-1 lg:pr-10">

@@ -1212,49 +1212,6 @@
 
     <!-- counter -->
 
-    <!-- matrix and news -->
-
-    <section id="stats" class="relative z-20 bg-white border-t border-white/5 py-12 lg:py-20 stats-mobile-up">
-        <div class="max-w-[1600px] mx-auto px-6 md:px-10">
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 lg:gap-y-0">
-                <div class="col-span-2 lg:col-span-1 lg:pr-10">
-                    <h3 class="font-semibold text-base md:text-lg mb-6">Trusted By our customer</h3>
-                    <div class="flex items-center gap-4">
-                        <div class="flex -space-x-3 md:-space-x-4">
-                            <img class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-darkbg object-cover"
-                                src="https://i.pravatar.cc/100?u=1">
-                            <img class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-darkbg object-cover"
-                                src="https://i.pravatar.cc/100?u=2">
-                            <img class="w-10 h-10 rounded-full border-2 border-darkbg object-cover"
-                                src="https://i.pravatar.cc/100?u=3">
-                        </div>
-                        <div>
-                            <span
-                                class="text-white text-xl md:text-2xl font-bold block leading-none font-base">1000+</span>
-                            <p class="text-gray-500 text-[10px] md:text-xs uppercase tracking-tighter mt-1">client
-                                satisfied</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:px-10 text-left lg:text-center border-l border-white/10 pl-4">
-                    <h2 class="font-black text-3xl md:text-6xl text-white">15K+</h2>
-                    <p class="text-gray-500 font-medium uppercase text-[9px] md:text-xs mt-2">Legal Resolved</p>
-                </div>
-
-                <div class="lg:px-10 text-left lg:text-center border-l border-white/10 pl-4">
-                    <h2 class="font-black text-3xl md:text-6xl text-white">15+</h2>
-                    <p class="text-gray-500 font-medium uppercase text-[9px] md:text-xs mt-2">Years Experience</p>
-                </div>
-
-                <div class="hidden lg:block lg:pl-10 text-center border-l border-white/10">
-                    <h2 class="font-black text-6xl text-white">10K+</h2>
-                    <p class="text-gray-500 font-medium uppercase text-xs mt-2">Satisfied Clients</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 
 
